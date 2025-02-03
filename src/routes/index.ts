@@ -24,32 +24,32 @@ const ViewCoursePage = lazy(
   );
   const coreRoutes = [
     {
-      path: "/about",
+      path: "/ve-chung-toi",
       title: "Về Chúng Tôi",
       component: ViewAboutPage,
     },
     {
-      path: "/courses",
+      path: "/khoa-hoc",
       title: "Khóa Học",
       component: ViewCoursePage,
     },
     {
-      path: "/facilities",
+      path: "/he-thong-co-so",
       title: "Về Chúng Tôi",
       component: ViewFaciPage,
     },
     {
-      path: "/tournament",
+      path: "/giai-dau",
       title: "Về Chúng Tôi",
       component: ViewTourPage,
     },
     {
-      path: "/news",
+      path: "/tin-tuc",
       title: "Về Chúng Tôi",
       component: ViewNewsPage,
     },
     {
-      path: "/contact",
+      path: "/lien-he",
       title: "Về Chúng Tôi",
       component: ViewContactPage,
     },

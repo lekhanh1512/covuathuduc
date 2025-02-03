@@ -54,22 +54,23 @@ const Header: React.FC = () => {
           <Link className="nav-link" to="/">
             TRANG CHỦ
           </Link>
-          <Link className="nav-link" to="/about">
-            GIỚI THIỆU <i className="fas fa-chevron-down"></i>
-          </Link>
-          <Link className="nav-link" to="/courses">
-            KHÓA HỌC <i className="fas fa-chevron-down"></i>
-          </Link>
-          <Link className="nav-link" to="/facilities">
+          <Link className="nav-link" to="/he-thong-co-so">
             HỆ THỐNG CƠ SỞ <i className="fas fa-chevron-down"></i>
           </Link>
-          <Link className="nav-link" to="/tournament">
+          <Link className="nav-link" to="/khoa-hoc">
+            KHÓA HỌC <i className="fas fa-chevron-down"></i>
+          </Link>
+
+          <Link className="nav-link" to="/giai-dau">
             GIẢI ĐẤU <i className="fas fa-chevron-down"></i>
           </Link>
-          <Link className="nav-link" to="/news">
+          <Link className="nav-link" to="/ve-chung-toi">
+            GIỚI THIỆU <i className="fas fa-chevron-down"></i>
+          </Link>
+          <Link className="nav-link" to="/tin-tuc">
             TIN TỨC <i className="fas fa-chevron-down"></i>
           </Link>
-          <Link className="nav-link" to="/contact">
+          <Link className="nav-link" to="/lien-he">
             LIÊN HỆ <i className="fas fa-chevron-down"></i>
           </Link>
         </nav>
