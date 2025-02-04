@@ -62,7 +62,7 @@ const StoreLocator = () => {
   const [infoWindow, setInfoWindow] = useState<google.maps.InfoWindow | null>(
     null
   );
-
+  console.log(selectedDistrict);
   const districts = [
     { id: 1, name: "--- Chọn Khu Vực ---" },
     { id: 2, name: "Quận 9" },
@@ -254,7 +254,7 @@ const StoreLocator = () => {
                     <p className="font-bold text-blue-600">{location.title}</p>
                     <p className="text-gray-700">{location.address}</p>
                     <a
-                      className="text-blue-600 px-2 py-1 transition duration-200 hover:text-green-600"
+                      className="text-blue-600 px-2 py-1 transition duration-200 hover:text-reen-600"
                       href={location.link}
                       target="_blank"
                       rel="noreferrer"
